@@ -9,12 +9,12 @@ class ExamDetailScreen extends StatelessWidget {
 
   String getTimeRemaining() {
     final now = DateTime.now();
-    if (exam.date.isBefore(now)) return "Испитот веќе помина.";
+    if (exam.date.isBefore(now)) return "Испитот е завршен.";
 
     final diff = exam.date.difference(now);
     final days = diff.inDays;
     final hours = diff.inHours % 24;
-    return "$days дена, $hours часа преостануваат.";
+    return "Време до испит $days дена, $hours часа.";
   }
 
   @override
