@@ -1,0 +1,1 @@
+flutter config --android-sdk C:\Users\stank\AppData\Local\Android\Sdk

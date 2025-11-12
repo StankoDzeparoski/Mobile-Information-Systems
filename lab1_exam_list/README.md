@@ -1,16 +1,36 @@
-# lab1_exam_list
+# Лабораториска вежба 1
 
-A new Flutter project.
+# Сликите и Видеото од оваа вежба се наоѓаат во фолдерот images_lab1
 
-## Getting Started
+Инсталирајте го Flutter SDK и соодветно IDE (Android Studio / VS Code) на вашиот компјутер и направете нов Flutter проект.
 
-This project is a starting point for a Flutter application.
+Креирајте Flutter апликација за распоред на испити со следните функционалности:
 
-A few resources to get you started if this is your first Flutter project:
+Почетен екран (Листа на испити)
+Насловот во AppBar да биде "Распоред за испити - [број на индекс]"
+Прикажете листа на испити и нивните термини (минимум 10 испити)
+За секој испит прикажете: име на предмет, датум на испит, време и простории во кои се одржува испитот
+Дизајнот нека биде со картички (Card widget)
+Најдолу на екранот додадете беџ кој ќе го прикажува вкупниот број на испити
+Испитите во листата да се подредени хронолошки по датум
+Користете различни бои за испити кои се поминати и идни испити
+Додадете икони релевантни за секој елемент (датум, простории)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Модел
+Креирајте класа Exam со следните полиња:
+Име на предмет (String)
+Датум и време (DateTime)
+Простории (List<String>)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Детален преглед за испит
+При клик на картичка, испитот се отвара во нов екран
+Прикажете ги сите детали за тој испит
+Прикажете колку време преостанува до тој испит (разлика помеѓу денешниот датум и датумот на испитот), форматот нека биде: "X дена, Y часа"
+
+Технички барања:
+
+Користете статички податоци (hardcoded листа на испити)
+Користете named параметри во конструкторите
+Организирајте го кодот во посебни фајлови и фолдери (models, screens, widgets)
+
+Испраќање на вежбата: Кодот прикачете го на GitHub/GitLab репозиториум (јавен) и испратете го линкот. На линкот прикачете и видео или screenshots од изгледот на апликацијата (не како .zip!!!).
