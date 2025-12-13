@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436973283006",
+    "project_id": "lab3notifications",
+    "storage_bucket": "lab3notifications.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436973283006:android:fbdb03c4d61ba9e9e660ef",
+        "android_client_info": {
+          "package_name": "com.example.lab3_mealdb_api_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfiW4qvvVv6cXijiGP3V8b0Ss8-tFOVYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
